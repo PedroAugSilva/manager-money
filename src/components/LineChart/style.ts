@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-
+k
 
 export const Chart = styled.div`
   align-items: center;
