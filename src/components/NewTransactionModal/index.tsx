@@ -36,7 +36,7 @@ const NewTransactionModal = ({ setModal }: any) => {
           <BsX />
         </button>
         <form onSubmit={handleSubmit(handleTransaction)}>
-          <input type="text" placeholder="description..." {...register("description")} />
+          <input type="text" placeholder="Description..." {...register("description")} />
           <input type="number" placeholder="Money..." {...register("money")} />
           <div className="radio-area">
             <input
