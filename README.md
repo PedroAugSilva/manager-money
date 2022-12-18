@@ -2,7 +2,7 @@
 
 ## Instalação e inicialização do projeto:
 Para clonar o projeto:
-<code> $ git clone https://github.com/PedroAugSilva/menager-money.git</code> <br><br>
+<code> $ git clone https://github.com/PedroAugSilva/manager-money.git</code> <br><br>
 Para instalação de dependências:
 <code>npm install</code> <br><br>
 Para inicializar o projeto:
