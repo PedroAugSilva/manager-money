@@ -11,6 +11,9 @@ export const Chart = styled.div`
   width: 85%;
   height: 221px;
   position: relative;
+  @media screen and (min-width: 1500px){
+    
+  }
   @media screen and (max-width: 719px){
      width: 80%;
   }

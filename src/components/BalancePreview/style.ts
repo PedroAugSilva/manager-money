@@ -10,6 +10,10 @@ export const Preview = styled.header`
     background-image: linear-gradient(to right, #BFB0C5 5%,  #fff  60%);
     padding: 1rem 2.5rem;
     justify-content: space-around;
+    @media screen and (min-width: 1800px){
+        padding: 1rem 150px;
+        gap: 200px;
+    }
     @media screen and (max-width: 719px){
       height: max-content;
       flex-direction: column;

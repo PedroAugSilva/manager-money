@@ -41,6 +41,7 @@ export const Main = styled.main`
       width: calc(100vw - 180px);
       padding: 1rem;
     }
+    
 
     @media screen and (max-width: 900px){
       width: 100vw;
