@@ -4,7 +4,7 @@ type ProviderType = {
   children?: ReactNode;
 };
 interface transactionsType {
-  reason: string;
+  description: string;
   money:  number;
   action: string;
   date: string;
@@ -34,13 +34,13 @@ export const TransactionsProvider: React.FC<ProviderType> = ({ children }) => {
     }
   }, []);
 
-  const newTransaction = ({ reason, money, action }: transactionsType) => {
+  const newTransaction = ({ description, money, action }: transactionsType) => {
     const hasStorage = localStorage.getItem("transactions");
     
     
     const dateToday = new Date().toLocaleDateString()
     const newtransaction = {
-      reason: reason,
+      description: description,
       money: money,
       action: action,
       date: dateToday,

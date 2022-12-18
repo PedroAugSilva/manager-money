@@ -22,7 +22,7 @@ const LatestTransactions: React.FC = () => {
         return (
           <Transaction key={index}>
             <div>
-              <span className="finality">{transaction.reason}</span>
+              <span className="finality">{transaction.description}</span>
             </div>
             <div>
               <span className="value">{money}</span>
